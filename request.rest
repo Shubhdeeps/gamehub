@@ -1,0 +1,74 @@
+POST http://localhost:3001/api/register
+Content-Type: application/json
+
+{
+    "username": "new user",
+    "password": "shubhdeep01",
+    "email": "new.gamer@gmail.com"
+}
+
+
+###
+POST http://localhost:3001/api/create
+Content-Type: application/json
+
+{
+    "name": "Game vvcc",
+    "id": "1242",
+    "description": "This is a sample game",
+    "genres": ["action", "horror"],
+    "rating": 3.7,
+    "tags": ["horror", "tag2", "tag3"],
+    "developers": ["dev1", "dev2", "dev3"],
+    "released": "2019-09-15",
+    "website": "https://mynewgame.com/home"
+}
+
+###
+GET http://localhost:3001/api/games
+
+
+###
+
+POST http://localhost:3001/api/login
+Content-Type: application/json
+
+{
+    "email": "jj@gmial.com",
+    "password": "abcdef"
+}
+
+###
+
+POST http://localhost:3001/api/logout
+
+###
+
+GET http://localhost:3001/api/user/favourites
+
+###
+
+GET http://localhost:3001/api/user
+
+
+
+###
+
+POST http://localhost:3001/api/user/favourites/add
+Content-Type: application/json
+
+{
+    "newgame": {
+        "id": 12340,
+        "name": "New Game"
+    }
+}
+
+###
+
+POST http://localhost:3001/api/user/favourites/remove
+Content-Type: application/json
+
+{
+    "newgame":  "ee6712f-5ab6-6cc-c07f-8d782fc7be"
+}
