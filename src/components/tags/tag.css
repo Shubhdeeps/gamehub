@@ -1,0 +1,8 @@
+.tags-pill{
+    position: relative;
+    transition: 200ms ease;
+}
+
+.tags-pill:hover{
+    transform: translateY(-3px);
+}
