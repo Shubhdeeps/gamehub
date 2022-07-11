@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d915311f.css",
+    "main.js": "/static/js/main.4625bb15.js",
+    "static/media/cover-image-vertical.png": "/static/media/cover-image-vertical.97434163b3f50d162e7a.png",
+    "static/media/pc-game.png": "/static/media/pc-game.249c1abe6546b688cd68.png",
+    "static/media/mobile-game.png": "/static/media/mobile-game.da7f73ea14c50a665103.png",
+    "static/media/registration.png": "/static/media/registration.fdaff4568755d2a57201.png",
+    "static/media/console-game.png": "/static/media/console-game.a2a9008934f192bc6a72.png",
+    "index.html": "/index.html",
+    "main.d915311f.css.map": "/static/css/main.d915311f.css.map",
+    "main.4625bb15.js.map": "/static/js/main.4625bb15.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d915311f.css",
+    "static/js/main.4625bb15.js"
+  ]
+}
